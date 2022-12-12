@@ -18,6 +18,7 @@ function createBoxes() {
     const box = document.createElement("div");
     box.style.width = `${boxSize}px`;
     box.style.height = `${boxSize}px`;
+    box.style.margin = "10px";
     box.style.backgroundColor = getRandomHexColor();
     boxes.append(box);
   }
